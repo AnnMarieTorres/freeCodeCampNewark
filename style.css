@@ -1,0 +1,15 @@
+body {
+	background-color: Whitesmoke;
+}
+.banner{
+	text-align: center;
+}
+.navbar {
+	opacity: 0.8;
+}
+.jumbotron{
+	background-image: url(assets/jumbo_background.jpg);
+	background-position: cover;
+	height: 50rem;
+	width: auto;
+}
