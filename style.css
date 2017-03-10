@@ -13,6 +13,10 @@ body {
 	border: none;
 	
 }
+.navbar-brand {
+	color: #000 !important;
+}
+
 .jumbotron{
 	background-image: url(assets/jumbo_background.jpg);
 	background-position: cover;
