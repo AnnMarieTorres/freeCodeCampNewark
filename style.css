@@ -1,11 +1,14 @@
 body {
 	background-color: Whitesmoke;
+	padding-top: 48px;
 }
 .banner{
 	text-align: center;
 }
 .navbar {
-	opacity: 0.8;
+	background-color: rgb(0,113,12);
+	border: none;
+	
 }
 .jumbotron{
 	background-image: url(assets/jumbo_background.jpg);
