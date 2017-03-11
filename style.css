@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
 	background-color: Whitesmoke;
+	padding-top: 48px;
 }
-.banner{
+.banner {
 	text-align: center;
+	font-family: 'Lato', sans-serif;
+	
 }
 .navbar {
-	opacity: 0.8;
+	background-color: rgb(0,113,12);
+	border: none;
+	
 }
+.navbar-brand {
+	color: #000 !important;
+}
+
 .jumbotron{
 	background-image: url(assets/jumbo_background.jpg);
 	background-position: cover;
