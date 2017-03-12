@@ -1,0 +1,25 @@
+.jumbotron{
+	background-image: url(assets/Resources-jumbo.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: cover;
+	height: 75rem;
+	margin-top: -25rem;
+}
+.banner{
+	margin-top: 25rem;
+}
+
+.heading{
+	text-align: center;
+}
+
+.resource li{
+	list-style-type: none;
+	margin: 5px 10px 5px -40px;
+	font-size: 20px;
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
