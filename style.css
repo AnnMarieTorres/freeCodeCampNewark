@@ -13,7 +13,7 @@ body {
 
 }
 #brand {
-	color: #fff;
+	color: Whitesmoke;
 }
 .active>a{
 	color:#000 !important;
@@ -67,7 +67,7 @@ body {
 
 }
 #links li a{
-	color: #fff;
+	color: Whitesmoke;
 }
 
 footer .social-icons a{

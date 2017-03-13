@@ -1,25 +1,68 @@
+.navbar {
+	background:rgba(0,0,0,0.7);
+	
+}
 .jumbotron{
-	background-image: url(assets/Resources-jumbo.jpg);
+	background-image: url(assets/Night.jpg);
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-size: cover;
-	height: 75rem;
+	height: 95rem;
 	margin-top: -25rem;
+	color: Whitesmoke;
 }
 .banner{
-	margin-top: 25rem;
+	margin-top: 45rem;
 }
 
 .heading{
-	text-align: center;
+	/*text-align: center;*/
+	padding-top:5rem;
+	padding-bottom: 5rem;
+	color: Whitesmoke;
+	padding-left: 2rem;
 }
+
 
 .resource li{
 	list-style-type: none;
-	margin: 5px 10px 5px -40px;
+	/*margin: 5px 10px 5px -40px;*/
 	font-size: 20px;
-	text-align: center;
+	/*text-align: center;*/
+	padding: 2rem 1rem 2rem 1rem;
+	color: Whitesmoke;
 }
+.learnSection{
+	background:#2e3b4d;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+.jobSection{
+	background:#b94255;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+.sheetSection {
+	background: #4d1e5c;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+
 footer{
 	text-align: center;
+	margin-top: -2.1rem;
+	padding-bottom: 2rem;
+	background: rgba(0,0,0,0.9);
+}
+footer .social-icons i{
+	border: 1px solid #00710c;
+	border-radius: 50%;
+	font-size: 22px;
+	padding:6px;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
 }
