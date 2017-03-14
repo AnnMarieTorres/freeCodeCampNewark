@@ -1,25 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
 	background-color: Whitesmoke;
-	padding-top: 48px;
+	padding-top: 20px;
 }
 .banner {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	
 }
-.navbar {
+.navbar{
 	background-color: rgb(0,113,12);
-	border: none;
-	
+
 }
-.navbar-brand {
-	color: #000 !important;
+#brand {
+	color: Whitesmoke;
+}
+.active>a{
+	color:#000 !important;
+
+}
+.jumbotron{
+
+	
+	/*height: 50rem;*/
+	/*width: auto;*/
 }
 
-.jumbotron{
-	background-image: url(assets/jumbo_background.jpg);
-	background-position: cover;
-	height: 50rem;
-	width: auto;
+.slider{
+	margin-top: 60px;
+
+}
+
+#slider .item {
+	height: 400px;
+}
+
+#slide1{
+	background: url(assets/rsz_newark_background.jpg);
+	background-size: cover;
+}
+
+#slide2{
+	background: url(assets/rsz_1coffee.jpg);
+	
+}
+
+#slide3{
+	background: url(assets/rsz_blog_back.jpg);
+}
+
+#slide4{
+	background: url(assets/rsz_resources.jpg);
+}
+
+.unstyled{
+	list-style: none;
+	text-decoration: none;
+}
+/* Media queries*/
+
+
+
+.navbar-fixed-bottom{
+    background: #333;
+    color: #e0e0e0;
+
+}
+#links li a{
+	color: Whitesmoke;
+}
+
+footer .social-icons a{
+	color: #00710c;
+	padding: 0 10px 20px 10px;
 }

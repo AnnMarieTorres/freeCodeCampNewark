@@ -1,0 +1,95 @@
+.navbar {
+	background:rgba(0,0,0,0.7);
+	
+}
+.jumbotron{
+	background-image: url(assets/Night.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: cover;
+	height: 95rem;
+	margin-top: -25rem;
+	color: Whitesmoke;
+}
+.banner{
+	margin-top: 45rem;
+}
+
+.heading{
+	/*text-align: center;*/
+	padding-top:5rem;
+	padding-bottom: 5rem;
+	color: Whitesmoke;
+	padding-left: 2rem;
+}
+
+
+.resource li{
+	list-style-type: none;
+	/*margin: 5px 10px 5px -40px;*/
+	font-size: 20px;
+	/*text-align: center;*/
+	padding: 2rem 1rem 2rem 1rem;
+	color: Whitesmoke;
+}
+.learnSection{
+	background:url('assets/behindBlue.jpg');
+	position: relative;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+.blueLayer{
+	background-color: rgba(46,59,77,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.jobSection{
+	background:url('assets/behindRed.jpg');
+	position: relative;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+.redLayer{
+	background-color: rgba(194,81,103,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.sheetSection {
+	background: url('assets/behindPurp.jpg');
+	position: relative;
+	color: WhiteSmoke;
+	margin-top: -3rem;
+	height: 50rem;
+}
+.purpLayer{
+	background-color: rgba(83,37,98,0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+	text-align: center;
+	margin-top: -2.1rem;
+	padding-bottom: 2rem;
+	background: rgba(0,0,0,0.9);
+}
+footer .social-icons i{
+	border: 1px solid #00710c;
+	border-radius: 50%;
+	font-size: 22px;
+	padding:6px;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+}

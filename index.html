@@ -24,23 +24,116 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand"><i class="fa fa-free-code-camp"></i> freeCodeCamp</a>
+				<a class="navbar-brand" id="brand"><i class="fa fa-free-code-camp"></i> freeCodeCamp</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-right" id="navbar-collapsed-1">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" id="links">
 				<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
 				<li><a href="coffeeAndCode.html">Coffee&Code</a></li>
 				<li><a href="Blog.html">Blog</a></li>
-				<li><a href="Resources.html">Resources</a></li>
+				<li><a href="resources.html">Resources</a></li>
 				</ul>
 		</div>
 	</nav>
 	<!-- navbar end -->
+	
 	<!-- jumbotron -->
 	<div class="jumbotron">
 		<div class="container">
-			<h1 class="banner"><span class="fa fa-free-code-camp"> </span> Free Code Camp Newark, NJ</h1>
+		   
+			          <div class= "carousel slide" id="slider" >
+                            <!-- indicators dot nav -->
+                            <ol class="carousel-indicators">
+                                  <li class="active" data-slide-to="0" data-target="#slider"></li>
+                                  <li data-slide-to="1" data-target="#slider"></li>
+                                  <li data-slide-to="2" data-target="#slider"></li>
+                                  <li data-slide-to="3" data-target="#slider"></li>
+                            </ol>
+                            <!-- wrapper for slides -->
+                            <div class="carousel-inner" >
+
+                                <div class="item active" id= "slide1">
+                                    <div class="carousel-caption">
+                                       <h4> FreeCodeCamp Newark Homepage </h4>
+                                       <p> Learning & sharing programming experiences</p>
+                                    </div>
+                                </div>
+
+                                    <div class="item" id= "slide2">
+                                       <div class="carousel-caption">
+                                         <h4> Coffee & Code </h4>
+                                         <p> Even if you are not into hot java (pun intended), join us at one of our Meetups to discuss programming topics, work on exciting projects, or meet likeminded coders</p>
+                                       </div>
+                                    </div>
+
+                                    <div class="item" id= "slide3">
+                                        <div class="carousel-caption">
+                                           <h4> FCC NWK Blog </h4>
+                                           <p> Checkout our blog for current affairs in web development</p>
+                                        </div>
+                                    </div>   
+
+                                    <div class="item" id= "slide4">
+                                        <div class="carousel-caption">
+                                           <h4>Resources</h4>
+                                           <p>Here are some links to help you on your path</p>
+                                        </div>
+
+                                     </div>
+
+                            
+                            </div>
+                            <!-- controls or next and prev buttons-->
+                            <a class="left carousel-control" data-slide="prev" href="#slider"><span class="icon-prev"></span></a>
+                            <a class="right carousel-control" data-slide="next" href="#slider"><span class="icon-next"></span></a>
+
+
+			          </div>
+			 
 		</div>
+                   <!-- Footer section -->
+		               <div class="navbar navbar-default navbar-fixed-bottom">
+		                    <div class= "container">
+		                        <div class="row">
+		                          <div class="col-sm-2">Copyright &copy; 2017 {FCC}</div>
+		                          <div class="col-sm-4">
+		                              <h6>About Us</h6>
+                                      <p> Add on later</p>  
+		                          </div>
+		                          <div class="col-sm-2">
+		                             <h6>Navigation</h6>
+		                             <ul class="unstyled">
+		                                <li><a href="#">Home</a></li>
+		                                <li><a href="#">Services</a></li>
+		                                <li><a href="#">Links</a></li>
+		                                <li><a href="#">Contact</a></li>
+		                              </ul>  
+
+		                          </div>
+		                          <div class="col-sm-2">
+		                          	<h6>Follow Us</h6>
+		                             <ul class="unstyled">
+		                                <li>
+		                                	<i class="fa fa-facebook" aria-hidden="true"></i>
+
+		                                </li>
+		                                <li>
+		                                	<i class="fa fa-twitter" aria-hidden="true"></i>
+
+		                                </li>
+		                                <li>
+		                                	<i class="fa fa-google-plus" aria-hidden="true"></i>
+
+		                                </li>
+		                              </ul>  
+
+		                          </div>
+
+
+		                        </div>
+
+		                    </div>
+		               </div>
 	</div>
 	<!-- jumbotron end -->
 
