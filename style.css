@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
 body, html {
 	 height:100%;
      margin:0;
@@ -11,19 +15,11 @@ body, html {
 	font-family: 'Lato', sans-serif;
 	
 }
-.navbar .navbar-default .navbar-fixed-top{
-	background: green;
-    color: black!important;
-    font-weight: 900;
-    border-color: #e7e7e7;
-}
 
 
 
-.active>a{
-	color: rgb(94,94, 94);
 
-}
+
 
 
 .homepage-section{
@@ -45,16 +41,27 @@ body, html {
 	width: 100%;
 	height: 100%;
 
+
 }
 
 #slider .item {
-	height: 650px;
+	height: 100vh;
+	margin-top: 5px;
 
+
+}
+.blackLayer{
+	background-color: rgba(34, 32, 32, 0.3);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 #slide1{
 	background: url(assets/keyboard.jpeg);
 	background-size: cover;
+	
 }
 
 #slide2{
@@ -98,4 +105,13 @@ footer{
     padding-bottom: 1rem;
     background: rgba(255,255,255,0.9);
 
+}
+footer .social-icons i{
+	border: 1px solid #00710c;
+	border-radius: 50%;
+	font-size: 22px;
+	padding:6px;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
 }
