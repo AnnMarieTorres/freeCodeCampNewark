@@ -1,62 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-body {
-	background-color: Whitesmoke;
-	padding-top: 20px;
+body, html {
+	 height:100%;
+     margin:0;
+
 }
+
+
 .banner {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	
 }
-.navbar{
-	background-color: rgb(0,113,12);
+.navbar .navbar-default .navbar-fixed-top{
+	background: green;
+    color: black!important;
+    font-weight: 900;
+    border-color: #e7e7e7;
+}
 
-}
-#brand {
-	color: Whitesmoke;
-}
+
+
 .active>a{
-	color:#000 !important;
+	color: rgb(94,94, 94);
 
 }
-.jumbotron{
 
-	
-	/*height: 50rem;*/
-	/*width: auto;*/
+
+.homepage-section{
+     background: url('assets/macbook-coding.jpeg');
+     background-size: cover;
+     position: relative;  
+     color: WhiteSmoke;
+     margin-top: -3rem;
+     height: 75rem;
+     text-align: center;
+     height:100%;
+     min-height:100%;
+
 }
 
 .slider{
-	margin-top: 60px;
+	margin-top: 0;
+	max-width: 100%
+	width: 100%;
+	height: 100%;
 
 }
 
 #slider .item {
-	height: 400px;
+	height: 650px;
+
 }
 
 #slide1{
-	background: url(assets/rsz_newark_background.jpg);
+	background: url(assets/keyboard.jpeg);
 	background-size: cover;
 }
 
 #slide2{
-	background: url(assets/rsz_1coffee.jpg);
+	background: url(assets/coffee-laptop.jpg);
+	background-size: cover;
 	
 }
 
 #slide3{
-	background: url(assets/rsz_blog_back.jpg);
+	background: url(assets/sublime-text.jpeg);
+	background-size: cover;
 }
 
 #slide4{
-	background: url(assets/rsz_resources.jpg);
+	background: url(assets/resources.jpeg);
+	background-size: cover;
 }
 
-.unstyled{
-	list-style: none;
-	text-decoration: none;
-}
+
+ .carousel-control {
+        z-index: 2;
+    }
+
 /* Media queries*/
 
 
@@ -67,10 +88,14 @@ body {
 
 }
 #links li a{
-	color: Whitesmoke;
+	color: rgb(94,94,94);
+	font-family: 'raleway', sans-serif
 }
 
-footer .social-icons a{
-	color: #00710c;
-	padding: 0 10px 20px 10px;
+footer{
+	text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgba(255,255,255,0.9);
+
 }
