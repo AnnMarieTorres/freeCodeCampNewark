@@ -9,6 +9,13 @@ body {
     background: -o-linear-gradient(bottom, #649173, #DBD5A4);
     background: linear-gradient(to top, #649173, #DBD5A4); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+hr { 
+  border : 0;
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+/* call to action area styling */
 .jumbotron {
     background-image: url(assets/cc-main.jpg);
     background-repeat: no-repeat;
@@ -18,21 +25,28 @@ body {
     width: 100%;
 	margin-top: -25rem;
 	color: Whitesmoke;
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
 }
-
 .img-content {
-	text-align: center;
-	padding-top: 55%;
+    text-align: center;
+	padding-top: 35%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 0px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
+}
+#img-h1 {
+    color: ghostwhite;
+}
+#img-p {
+    color: #e6e6e6;
 }
 h1 {
 	font-weight: 700;
 	font-size: 5em;
 }
+
+/* gallery styling */
 .img1 {
     background-image: url(assets/filler-img1.jpg);
     background-repeat: no-repeat;
@@ -49,14 +63,29 @@ h1 {
     height: 25rem;
     width: 25rem;
 }
-#calendar {
-    height: 35rem;
-    text-align: center;
-    padding-top: 15px;
+
+
+/* map and survey section stying */
+.map {
+    border-right: 1px solid #000;
 }
 
+#googleForm {
+    border: 1px solid #000;
+}
+
+/* footer styling */
 footer {
-    height: 5rem;
+    color: black;
     text-align: center;
     background-color: darkgray;
+    height: 8rem;
+    padding-top: 1rem;
+    
 }
+
+i {
+    color: black;
+    padding: 0 3rem 0 3rem;
+}
+ 
