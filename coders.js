@@ -2,7 +2,7 @@ const panels = document.querySelectorAll('.panel');
 let prevThis;
 function toggleOpen() {
 	
-	if(prevThis != null){
+	if(prevThis != null && prevThis != this){
 		prevThis.classList.toggle('open');
 	}
 	
