@@ -1,0 +1,25 @@
+body {
+	padding-top:50px;
+}
+
+.demo-card-wide.mdl-card {
+  width: 90%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 250px;
+  background: url('../assets/article.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 500px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
