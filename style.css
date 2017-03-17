@@ -70,6 +70,10 @@ body, html {
 
 }
 
+.carousel-indicators{
+      height: 150px;
+}
+
 .row{
 	padding-top: 100px;
 }
@@ -121,6 +125,10 @@ body, html {
 	background-size: cover;
 }
 
+#slide5{
+  background: url(assets/team.jpeg);
+  background-size: cover;
+}
 
  .carousel-control {
         z-index: 2;
